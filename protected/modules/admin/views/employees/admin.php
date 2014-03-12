@@ -44,7 +44,13 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 	'id'=>'employees-grid',
 	'dataProvider'=>$model->search(),
 	'filter'=>$model,
+    'choseAll'=>array(
+            'selectableRows' => 2,
+            'headerHtmlOptions' => array('width'=>'18px','align'=>'center'),
+            'checkBoxHtmlOptions' => array('name' => 'ids[]','align'=>'center'),
+        ),
 	'columns'=>array(
+
 		'id',
 		'birth_date',
 		'first_name',
@@ -54,5 +60,7 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
 		array(
 			'class'=>'CButtonColumn',
 		),
+
 	),
 )); ?>
+
