@@ -328,7 +328,15 @@ class CGridView extends CBaseListView
 	 * @since 1.1.11
 	 */
 	public $enableHistory=false;
-
+    /**
+     * @var array 全选按钮
+     * array(
+            'selectableRows' => 2,
+            'headerHtmlOptions' => array('width'=>'18px','align'=>'center'),
+            'checkBoxHtmlOptions' => array('name' => 'ids[]','align'=>'center'),
+     * )
+     */
+    public $choseAll = array();
 
 	/**
 	 * Initializes the grid view.
@@ -355,7 +363,11 @@ class CGridView extends CBaseListView
 				$this->cssFile=$this->baseScriptUrl.'/styles.css';
 			Yii::app()->getClientScript()->registerCssFile($this->cssFile);
 		}
-
+        if(!empty($this->choseAll))
+        {
+            $this->choseAll['class'] ='CCheckBoxColumn';
+            array_unshift($this->columns ,$this->choseAll);
+        }
 		$this->initColumns();
 	}
 
@@ -484,6 +496,41 @@ class CGridView extends CBaseListView
 			$this->renderTableFooter();
 			echo $body; // TFOOT must appear before TBODY according to the standard.
 			echo "</table>";
+            if(!empty($this->choseAll)){
+                echo <<<EOT
+                <button type="button" onclick="delAll();" style="width:120px;">设置状态</button>
+
+<script type="text/javascript">
+    function getData(){
+        var data=new Array();
+        $("input:checkbox[name='ids[]']").each(function (){
+            if($(this).attr("checked")){
+                data.push($(this).val());
+            }
+        });
+
+        return data;
+    }
+    function delAll(){
+        var data = getData();
+        if(data.length < 1) {
+            alert('请至少选择一个项目。');
+            return ;
+        }
+
+        $.post("index.php?r=admin/employees/delall",{'ids[]':data}, function (data) {
+            if (data=='ok') {
+                alert('设置状态成功！');
+            }else{
+                alert('设置状态失败，请重试！');
+            }
+            window.open('index.php?r=admin/employees','mainFrame');;
+        });
+    }
+</script>
+
+EOT;
+            }
 		}
 		else
 			$this->renderEmptyText();
