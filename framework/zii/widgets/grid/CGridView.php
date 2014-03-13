@@ -334,10 +334,14 @@ class CGridView extends CBaseListView
             'selectableRows' => 2,
             'headerHtmlOptions' => array('width'=>'18px','align'=>'center'),
             'checkBoxHtmlOptions' => array('name' => 'ids[]','align'=>'center'),
+            'deleteAllUrl'=>'/admin/employees/deleteAll/ajax/1'
      * )
      */
     public $choseAll = array();
-
+    /**
+     * @var string 全部删除的请求地址
+     */
+    public $deleteAllUrl = '';
 	/**
 	 * Initializes the grid view.
 	 * This method will initialize required property values and instantiate {@link columns} objects.
@@ -498,9 +502,16 @@ class CGridView extends CBaseListView
 			echo "</table>";
             if(!empty($this->choseAll)){
                 echo <<<EOT
-                <button type="button" onclick="delAll();" style="width:120px;">设置状态</button>
+                <button type="button" onclick="otherAll();" style="width:100px;">反选</button>
+                <button type="button" onclick="delAll();" style="width:100px;">批量删除</button>
 
 <script type="text/javascript">
+    function otherAll(){
+        $("input:checkbox[name='ids[]']").each(function (){
+            var checked = $(this).attr("checked") ? false :true;
+            $(this).attr("checked",checked);
+        });
+    }
     function getData(){
         var data=new Array();
         $("input:checkbox[name='ids[]']").each(function (){
@@ -518,13 +529,14 @@ class CGridView extends CBaseListView
             return ;
         }
 
-        $.post("index.php?r=admin/employees/delall",{'ids[]':data}, function (data) {
-            if (data=='ok') {
-                alert('设置状态成功！');
+        $.post('$this->deleteAllUrl',{'ids[]':data}, function (data) {
+
+            if (data.status==true) {
+                alert('删除成功！');
             }else{
-                alert('设置状态失败，请重试！');
+                alert('删除失败，请重试！'+data.msg);
             }
-            window.open('index.php?r=admin/employees','mainFrame');;
+            location.replace(location.href);
         });
     }
 </script>

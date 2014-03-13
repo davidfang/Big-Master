@@ -75,3 +75,324 @@ Stack trace:
 REQUEST_URI=/admin/employees/index.php?r=admin/employees/alldel
 HTTP_REFERER=http://big-master/admin/employees/admin
 ---
+2014/03/13 11:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/13 11:02:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/13 12:25:20 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in F:\www\fmwdavid\Big-Master\framework\web\CController.php:483
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#3 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/employees/index.php?r=admin/employees/delall
+HTTP_REFERER=http://big-master/admin/employees/admin
+---
+2014/03/13 13:55:00 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in F:\www\fmwdavid\Big-Master\framework\web\CController.php:483
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#3 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/employees/index.php?r=admin/employees/deleteAll
+HTTP_REFERER=http://big-master/admin/employees/admin
+---
+2014/03/13 14:08:53 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "index.php".' in F:\www\fmwdavid\Big-Master\framework\web\CController.php:483
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CController.php(270): CController->missingAction('index.php')
+#1 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('index.php')
+#2 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#3 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/employees/index.php?r=admin/employees/deleteAll
+HTTP_REFERER=http://big-master/admin/employees/admin
+---
+2014/03/13 14:09:55 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in F:\www\fmwdavid\Big-Master\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 F:\www\fmwdavid\Big-Master\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 F:\www\fmwdavid\Big-Master\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 F:\www\fmwdavid\Big-Master\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('deleteAll')
+#8 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#9 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/employees/deleteAll
+HTTP_REFERER=http://big-master/admin/employees/admin
+---
+2014/03/13 14:11:24 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in F:\www\fmwdavid\Big-Master\framework\web\CController.php:336
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 F:\www\fmwdavid\Big-Master\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 F:\www\fmwdavid\Big-Master\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(291): CFilterChain->run()
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('deleteAll')
+#9 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#10 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/admin/employees/deleteAll
+HTTP_REFERER=http://big-master/admin/employees/admin
+---
+2014/03/13 14:13:17 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in F:\www\fmwdavid\Big-Master\framework\web\CController.php:336
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 F:\www\fmwdavid\Big-Master\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 F:\www\fmwdavid\Big-Master\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(291): CFilterChain->run()
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('delall')
+#9 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#10 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/admin/employees/delall
+HTTP_REFERER=http://big-master/admin/employees/admin
+---
+2014/03/13 14:14:13 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in F:\www\fmwdavid\Big-Master\framework\web\CController.php:336
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 F:\www\fmwdavid\Big-Master\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 F:\www\fmwdavid\Big-Master\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(291): CFilterChain->run()
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('delall')
+#9 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#10 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/admin/employees/delall
+---
+2014/03/13 14:17:14 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in F:\www\fmwdavid\Big-Master\framework\web\CController.php:336
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 F:\www\fmwdavid\Big-Master\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 F:\www\fmwdavid\Big-Master\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(291): CFilterChain->run()
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('delall')
+#9 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#10 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/admin/employees/delall
+---
+2014/03/13 14:23:02 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in F:\www\fmwdavid\Big-Master\framework\web\CController.php:336
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 F:\www\fmwdavid\Big-Master\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 F:\www\fmwdavid\Big-Master\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(291): CFilterChain->run()
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('delall')
+#9 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#10 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/admin/employees/delall
+---
+2014/03/13 14:34:21 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: DELETE FROM `employees` WHERE id in ( :ids ).
+in F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\EmployeesController.php (132)
+in F:\www\fmwdavid\Big-Master\index.php (13)
+2014/03/13 14:34:21 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[HY093]: Invalid parameter number: parameter was not defined. The SQL statement executed was: DELETE FROM `employees` WHERE id in ( :ids )' in F:\www\fmwdavid\Big-Master\framework\db\CDbCommand.php:358
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\db\ar\CActiveRecord.php(1818): CDbCommand->execute()
+#1 F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\EmployeesController.php(132): CActiveRecord->deleteAll('id in ( :ids )', '10010,10011')
+#2 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): EmployeesController->actionDelall()
+#3 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 F:\www\fmwdavid\Big-Master\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 F:\www\fmwdavid\Big-Master\framework\web\CController.php(291): CFilterChain->run()
+#10 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('delall')
+#12 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#13 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/employees/delall
+---
+2014/03/13 14:41:58 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Array'' at line 1. The SQL statement executed was: DELETE FROM `employees` WHERE id in  :ids .
+in F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\EmployeesController.php (132)
+in F:\www\fmwdavid\Big-Master\index.php (13)
+2014/03/13 14:41:58 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Array'' at line 1. The SQL statement executed was: DELETE FROM `employees` WHERE id in  :ids ' in F:\www\fmwdavid\Big-Master\framework\db\CDbCommand.php:358
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\db\ar\CActiveRecord.php(1818): CDbCommand->execute()
+#1 F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\EmployeesController.php(132): CActiveRecord->deleteAll('id in  :ids ', Array)
+#2 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): EmployeesController->actionDelall()
+#3 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 F:\www\fmwdavid\Big-Master\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 F:\www\fmwdavid\Big-Master\framework\web\CController.php(291): CFilterChain->run()
+#10 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('delall')
+#12 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#13 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/employees/delall
+HTTP_REFERER=http://big-master/admin/employees/admin
+---
+2014/03/13 14:42:28 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Array'' at line 1. The SQL statement executed was: DELETE FROM `employees` WHERE id in  :ids .
+in F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\EmployeesController.php (132)
+in F:\www\fmwdavid\Big-Master\index.php (13)
+2014/03/13 14:42:28 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ''Array'' at line 1. The SQL statement executed was: DELETE FROM `employees` WHERE id in  :ids ' in F:\www\fmwdavid\Big-Master\framework\db\CDbCommand.php:358
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\db\ar\CActiveRecord.php(1818): CDbCommand->execute()
+#1 F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\EmployeesController.php(132): CActiveRecord->deleteAll('id in  :ids ', Array)
+#2 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): EmployeesController->actionDelall()
+#3 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#5 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#7 F:\www\fmwdavid\Big-Master\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#8 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#9 F:\www\fmwdavid\Big-Master\framework\web\CController.php(291): CFilterChain->run()
+#10 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#11 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('delall')
+#12 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#13 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#14 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#15 {main}
+REQUEST_URI=/admin/employees/delall
+---
+2014/03/13 15:39:13 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in F:\www\fmwdavid\Big-Master\framework\web\CController.php:336
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 F:\www\fmwdavid\Big-Master\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 F:\www\fmwdavid\Big-Master\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(291): CFilterChain->run()
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('delall')
+#9 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#10 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/admin/employees/delall
+---
+2014/03/13 15:40:01 [error] [exception.CHttpException.400] exception 'CHttpException' with message 'Your request is invalid.' in F:\www\fmwdavid\Big-Master\framework\web\CController.php:336
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CController.php(309): CController->invalidActionParams(Object(CInlineAction))
+#1 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#2 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 F:\www\fmwdavid\Big-Master\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#4 F:\www\fmwdavid\Big-Master\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#5 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(291): CFilterChain->run()
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('delall')
+#9 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#10 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/admin/employees/delall?ids%5B%5D=10013&ids%5B%5D=10015
+HTTP_REFERER=http://big-master/admin/employees/admin
+---
+2014/03/13 15:40:55 [error] [php] implode(): Invalid arguments passed (F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\EmployeesController.php:126)
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams()
+#1 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(133): EmployeesController->runAction()
+#2 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#3 F:\www\fmwdavid\Big-Master\framework\web\CController.php(1145): CAccessControlFilter->filter()
+#4 F:\www\fmwdavid\Big-Master\framework\web\filters\CInlineFilter.php(58): EmployeesController->filterAccessControl()
+#5 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter()
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(291): CFilterChain->run()
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): EmployeesController->runActionWithFilters()
+#8 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): EmployeesController->run()
+#9 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#10 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 F:\www\fmwdavid\Big-Master\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/employees/delall?ids%5B%5D=10013&ids%5B%5D=10015
+in F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\EmployeesController.php (126)
+in F:\www\fmwdavid\Big-Master\index.php (13)
+2014/03/13 16:32:11 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in F:\www\fmwdavid\Big-Master\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 F:\www\fmwdavid\Big-Master\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 F:\www\fmwdavid\Big-Master\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 F:\www\fmwdavid\Big-Master\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('deleteAll')
+#8 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#9 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/employees/deleteAll/ajax/1
+HTTP_REFERER=http://big-master/admin/employees/admin
+---
+2014/03/13 16:43:33 [error] [exception.CException] exception 'CException' with message 'Property "CCheckBoxColumn.deleteAllUrl" is not defined.' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:173
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\YiiBase.php(220): CComponent->__set('deleteAllUrl', '/admin/employee...')
+#1 F:\www\fmwdavid\Big-Master\framework\zii\widgets\grid\CGridView.php(405): YiiBase::createComponent(Array, Object(CGridView))
+#2 F:\www\fmwdavid\Big-Master\framework\zii\widgets\grid\CGridView.php(376): CGridView->initColumns()
+#3 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(147): CGridView->init()
+#4 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(172): CBaseController->createWidget('zii.widgets.gri...', Array)
+#5 F:\www\fmwdavid\Big-Master\protected\modules\admin\views\employees\admin.php(66): CBaseController->widget('zii.widgets.gri...', Array)
+#6 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(126): require('F:\www\fmwdavid...')
+#7 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\www\fmwdavid...', Array, true)
+#8 F:\www\fmwdavid\Big-Master\framework\web\CController.php(869): CBaseController->renderFile('F:\www\fmwdavid...', Array, true)
+#9 F:\www\fmwdavid\Big-Master\framework\web\CController.php(782): CController->renderPartial('admin', Array, true)
+#10 F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\EmployeesController.php(161): CController->render('admin', Array)
+#11 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): EmployeesController->actionAdmin()
+#12 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#13 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#14 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#15 F:\www\fmwdavid\Big-Master\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#16 F:\www\fmwdavid\Big-Master\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#17 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#18 F:\www\fmwdavid\Big-Master\framework\web\CController.php(291): CFilterChain->run()
+#19 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#20 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('admin')
+#21 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#22 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#24 {main}
+REQUEST_URI=/admin/employees/admin
+---

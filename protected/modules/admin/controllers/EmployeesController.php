@@ -36,7 +36,7 @@ class EmployeesController extends Controller
 				'users'=>array('@'),
 			),
 			array('allow', // allow admin user to perform 'admin' and 'delete' actions
-				'actions'=>array('admin','delete'),
+				'actions'=>array('admin','delete','deleteAll'),
 				'users'=>array('admin'),
 			),
 			array('deny',  // deny all users
@@ -116,7 +116,20 @@ class EmployeesController extends Controller
 		if(!isset($_GET['ajax']))
 			$this->redirect(isset($_POST['returnUrl']) ? $_POST['returnUrl'] : array('admin'));
 	}
+    /**
+     * 批量删除
+     * If deletion is successful, the browser will be redirected to the 'admin' page.
+     *  $ids the IDs of the model to be deleted
+     */
+    public function actionDeleteAll()
+    {
+        $ids = isset($_POST['ids']) && is_array($_POST['ids']) ? $_POST['ids'] :array();
+        $count =   Employees::model()->deleteByPk($ids);
 
+        header('Content-type: application/json');
+        $result = array('status'=>true,'msg'=>'');
+        echo CJSON::encode($result);
+    }
 	/**
 	 * Lists all models.
 	 */

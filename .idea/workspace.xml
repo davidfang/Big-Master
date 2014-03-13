@@ -2,23 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="428ad4d8-c73d-4e27-b7cc-87dc0315da07" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/Big-Master.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/frameworkRootSettings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/scope_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/zii/widgets/grid/CGridView.php" afterPath="$PROJECT_DIR$/framework/zii/widgets/grid/CGridView.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/DefaultController.php" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/DefaultController.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/controllers/EmployeesController.php" afterPath="$PROJECT_DIR$/protected/modules/admin/controllers/EmployeesController.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/employees/admin.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/employees/admin.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/modules/admin/views/layouts/main.php" afterPath="$PROJECT_DIR$/protected/modules/admin/views/layouts/main.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/protected/runtime/application.log" afterPath="$PROJECT_DIR$/protected/runtime/application.log" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/framework/zii/widgets/assets/gridview/styles.css" afterPath="$PROJECT_DIR$/framework/zii/widgets/assets/gridview/styles.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Big-Master.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="428ad4d8-c73d-4e27-b7cc-87dc0315da07" time="1394614753640" ignored="false" />
+    <file path="/Dummy.txt" changelist="428ad4d8-c73d-4e27-b7cc-87dc0315da07" time="1394684062618" ignored="false" />
     <file path="/admin.php" changelist="428ad4d8-c73d-4e27-b7cc-87dc0315da07" time="1394634609569" ignored="false" />
-    <file path="/CGridView.php" changelist="428ad4d8-c73d-4e27-b7cc-87dc0315da07" time="1394638192180" ignored="false" />
+    <file path="/CGridView.php" changelist="428ad4d8-c73d-4e27-b7cc-87dc0315da07" time="1394700184529" ignored="false" />
+    <file path="/styles.css" changelist="428ad4d8-c73d-4e27-b7cc-87dc0315da07" time="1394684218185" ignored="false" />
+    <file path="/EmployeesController.php" changelist="428ad4d8-c73d-4e27-b7cc-87dc0315da07" time="1394700656024" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,7 +38,7 @@
       <file leaf-file-name="DefaultController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/DefaultController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="35" selection-start="87" selection-end="87" vertical-scroll-proportion="-2.5217392">
+            <state line="4" column="35" selection-start="87" selection-end="87" vertical-scroll-proportion="-0.6304348">
               <folding />
             </state>
           </provider>
@@ -50,7 +47,7 @@
       <file leaf-file-name="CActiveDataProvider.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/framework/web/CActiveDataProvider.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="9" selection-start="859" selection-end="859" vertical-scroll-proportion="-3.7826087">
+            <state line="25" column="9" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -59,7 +56,7 @@
       <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/employees/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -68,7 +65,7 @@
       <file leaf-file-name="Employees.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/modules/admin/models/Employees.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="29.086956">
+            <state line="13" column="30" selection-start="342" selection-end="342" vertical-scroll-proportion="-8.195652">
               <folding />
             </state>
           </provider>
@@ -77,7 +74,7 @@
       <file leaf-file-name="_view.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/employees/_view.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding>
                 <marker date="1394565072217" expanded="true" signature="91:933" placeholder="..." />
               </folding>
@@ -85,20 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_search.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="_search.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/employees/_search.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.7826087">
-              <folding>
-                <marker date="1394565072215" expanded="true" signature="126:1287" placeholder="..." />
-                <marker date="1394565072215" expanded="true" signature="273:405" placeholder="..." />
-                <marker date="1394565072215" expanded="true" signature="425:539" placeholder="..." />
-                <marker date="1394565072215" expanded="true" signature="559:707" placeholder="..." />
-                <marker date="1394565072215" expanded="true" signature="727:873" placeholder="..." />
-                <marker date="1394565072215" expanded="true" signature="893:1034" placeholder="..." />
-                <marker date="1394565072215" expanded="true" signature="1054:1166" placeholder="..." />
-                <marker date="1394565072215" expanded="true" signature="1194:1249" placeholder="..." />
-              </folding>
+            <state line="22" column="0" selection-start="541" selection-end="541" vertical-scroll-proportion="0.73466665">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -106,26 +94,28 @@
       <file leaf-file-name="admin.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/employees/admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="0" selection-start="1579" selection-end="1579" vertical-scroll-proportion="-11.891304">
-              <folding />
+            <state line="52" column="47" selection-start="1470" selection-end="1470" vertical-scroll-proportion="-11.891304">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CGridView.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="CGridView.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/framework/zii/widgets/grid/CGridView.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="505" column="37" selection-start="20783" selection-end="20788" vertical-scroll-proportion="0.3114525">
+            <state line="538" column="44" selection-start="21804" selection-end="21804" vertical-scroll-proportion="-13.0">
               <folding>
-                <marker date="1394638452014" expanded="true" signature="20636:20648" placeholder="..." />
-                <marker date="1394638452014" expanded="true" signature="20695:20781" placeholder="..." />
-                <marker date="1394638452014" expanded="true" signature="21602:21898" placeholder="..." />
-                <marker date="1394638452014" expanded="true" signature="21704:21794" placeholder="..." />
-                <marker date="1394638452014" expanded="true" signature="22060:22108" placeholder="..." />
-                <marker date="1394638452014" expanded="true" signature="22285:22375" placeholder="..." />
-                <marker date="1394638452014" expanded="true" signature="22641:22848" placeholder="..." />
-                <marker date="1394638452014" expanded="true" signature="22683:22776" placeholder="..." />
-                <marker date="1394638452014" expanded="true" signature="23011:23118" placeholder="..." />
+                <marker date="1394700864657" expanded="true" signature="20868:20880" placeholder="..." />
+                <marker date="1394700864657" expanded="true" signature="20927:21226" placeholder="..." />
+                <marker date="1394700864657" expanded="true" signature="22021:22317" placeholder="..." />
+                <marker date="1394700864657" expanded="true" signature="22123:22213" placeholder="..." />
+                <marker date="1394700864657" expanded="true" signature="22479:22527" placeholder="..." />
+                <marker date="1394700864657" expanded="true" signature="22704:22794" placeholder="..." />
+                <marker date="1394700864657" expanded="true" signature="23060:23267" placeholder="..." />
+                <marker date="1394700864657" expanded="true" signature="23102:23195" placeholder="..." />
+                <marker date="1394700864657" expanded="true" signature="23430:23537" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -134,7 +124,7 @@
       <file leaf-file-name="EmployeesController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/EmployeesController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="38" selection-start="228" selection-end="262" vertical-scroll-proportion="-5.0434785">
+            <state line="125" column="87" selection-start="3300" selection-end="3300" vertical-scroll-proportion="-3.0652175">
               <folding />
             </state>
           </provider>
@@ -160,7 +150,9 @@
       <list>
         <option value="$PROJECT_DIR$/protected/modules/admin/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/protected/modules/admin/controllers/DefaultController.php" />
+        <option value="$PROJECT_DIR$/framework/zii/widgets/assets/gridview/styles.css" />
         <option value="$PROJECT_DIR$/protected/modules/admin/views/employees/admin.php" />
+        <option value="$PROJECT_DIR$/protected/modules/admin/controllers/EmployeesController.php" />
         <option value="$PROJECT_DIR$/framework/zii/widgets/grid/CGridView.php" />
       </list>
     </option>
@@ -198,6 +190,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -474,13 +467,68 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Big-Master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Big-Master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="widgets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="gridview" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Big-Master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Big-Master" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="framework" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="zii" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="behaviors" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -488,8 +536,8 @@
     <property name="WebServerToolWindowFactoryState" value="true" />
     <property name="options.lastSelected" value="Configurable.PHP" />
     <property name="FullScreen" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="PublishConfig">
     <servers>
@@ -523,27 +571,27 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Framework" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25376344" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -607,37 +655,21 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/default/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="74" selection-start="1467" selection-end="1467" vertical-scroll-proportion="-8.826087">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/EmployeesController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="38" selection-start="228" selection-end="262" vertical-scroll-proportion="-5.0434785">
-          <folding />
-        </state>
+        <state line="32" column="74" selection-start="1467" selection-end="1467" vertical-scroll-proportion="-8.826087" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="35" selection-start="87" selection-end="87" vertical-scroll-proportion="-2.5217392">
+        <state line="4" column="35" selection-start="87" selection-end="87" vertical-scroll-proportion="-0.6304348">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/web/CActiveDataProvider.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="9" selection-start="859" selection-end="859" vertical-scroll-proportion="-3.7826087">
+        <state line="25" column="9" selection-start="859" selection-end="859" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -645,13 +677,6 @@
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/employees/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/models/Employees.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="29.086956">
           <folding />
         </state>
       </provider>
@@ -665,41 +690,19 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/employees/_search.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.7826087">
-          <folding>
-            <marker date="1394565072215" expanded="true" signature="126:1287" placeholder="..." />
-            <marker date="1394565072215" expanded="true" signature="273:405" placeholder="..." />
-            <marker date="1394565072215" expanded="true" signature="425:539" placeholder="..." />
-            <marker date="1394565072215" expanded="true" signature="559:707" placeholder="..." />
-            <marker date="1394565072215" expanded="true" signature="727:873" placeholder="..." />
-            <marker date="1394565072215" expanded="true" signature="893:1034" placeholder="..." />
-            <marker date="1394565072215" expanded="true" signature="1054:1166" placeholder="..." />
-            <marker date="1394565072215" expanded="true" signature="1194:1249" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/layouts/column2.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/employees/view.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/zii/widgets/grid/CLinkColumn.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.2533333">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-3.2533333" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/zii/widgets/grid/CGridColumn.php">
@@ -709,27 +712,64 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/framework/zii/widgets/assets/gridview/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="109" column="1" selection-start="1422" selection-end="1422" vertical-scroll-proportion="0.6093943">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/yiilite.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7425" column="46" selection-start="217680" selection-end="217680" vertical-scroll-proportion="0.6626667">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/models/Employees.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="30" selection-start="342" selection-end="342" vertical-scroll-proportion="-8.195652">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/controllers/EmployeesController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="125" column="87" selection-start="3300" selection-end="3300" vertical-scroll-proportion="-3.0652175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/employees/admin.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="0" selection-start="1579" selection-end="1579" vertical-scroll-proportion="-11.891304">
-          <folding />
+        <state line="52" column="47" selection-start="1470" selection-end="1470" vertical-scroll-proportion="-11.891304">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/framework/zii/widgets/grid/CGridView.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="505" column="37" selection-start="20783" selection-end="20788" vertical-scroll-proportion="0.3114525">
+        <state line="538" column="44" selection-start="21804" selection-end="21804" vertical-scroll-proportion="-13.0">
           <folding>
-            <marker date="1394638452014" expanded="true" signature="20636:20648" placeholder="..." />
-            <marker date="1394638452014" expanded="true" signature="20695:20781" placeholder="..." />
-            <marker date="1394638452014" expanded="true" signature="21602:21898" placeholder="..." />
-            <marker date="1394638452014" expanded="true" signature="21704:21794" placeholder="..." />
-            <marker date="1394638452014" expanded="true" signature="22060:22108" placeholder="..." />
-            <marker date="1394638452014" expanded="true" signature="22285:22375" placeholder="..." />
-            <marker date="1394638452014" expanded="true" signature="22641:22848" placeholder="..." />
-            <marker date="1394638452014" expanded="true" signature="22683:22776" placeholder="..." />
-            <marker date="1394638452014" expanded="true" signature="23011:23118" placeholder="..." />
+            <marker date="1394700864657" expanded="true" signature="20868:20880" placeholder="..." />
+            <marker date="1394700864657" expanded="true" signature="20927:21226" placeholder="..." />
+            <marker date="1394700864657" expanded="true" signature="22021:22317" placeholder="..." />
+            <marker date="1394700864657" expanded="true" signature="22123:22213" placeholder="..." />
+            <marker date="1394700864657" expanded="true" signature="22479:22527" placeholder="..." />
+            <marker date="1394700864657" expanded="true" signature="22704:22794" placeholder="..." />
+            <marker date="1394700864657" expanded="true" signature="23060:23267" placeholder="..." />
+            <marker date="1394700864657" expanded="true" signature="23102:23195" placeholder="..." />
+            <marker date="1394700864657" expanded="true" signature="23430:23537" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/protected/modules/admin/views/employees/_search.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="541" selection-end="541" vertical-scroll-proportion="0.73466665">
+          <folding />
         </state>
       </provider>
     </entry>

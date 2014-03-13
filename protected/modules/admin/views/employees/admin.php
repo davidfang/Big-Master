@@ -48,7 +48,9 @@ or <b>=</b>) at the beginning of each of your search values to specify how the c
             'selectableRows' => 2,
             'headerHtmlOptions' => array('width'=>'18px','align'=>'center'),
             'checkBoxHtmlOptions' => array('name' => 'ids[]','align'=>'center'),
+
         ),
+    'deleteAllUrl'=>'/admin/employees/deleteAll',
 	'columns'=>array(
 
 		'id',
