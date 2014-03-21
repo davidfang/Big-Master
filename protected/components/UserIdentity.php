@@ -7,7 +7,9 @@
  */
 class UserIdentity extends CUserIdentity
 {
-	/**
+    public $user;
+    public $username;
+    /**
 	 * Authenticates a user.
 	 * The example implementation makes sure if the username and password
 	 * are both 'demo'.
@@ -30,4 +32,13 @@ class UserIdentity extends CUserIdentity
 			$this->errorCode=self::ERROR_NONE;
 		return !$this->errorCode;
 	}
+    public function getUser()
+    {
+        return $this->user;
+    }
+
+    public function getUserName()
+    {
+        return $this->username;
+    }
 }

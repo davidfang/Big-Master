@@ -396,3 +396,441 @@ Stack trace:
 #24 {main}
 REQUEST_URI=/admin/employees/admin
 ---
+2014/03/19 11:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/19 11:31:28 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/19 14:17:11 [error] [php] Declaration of WebUser::login() should be compatible with CWebUser::login($identity, $duration = 0) (F:\www\fmwdavid\Big-Master\protected\components\WebUser.php:11)
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\YiiBase.php(196): import()
+#1 F:\www\fmwdavid\Big-Master\framework\base\CModule.php(282): createComponent()
+#2 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 F:\www\fmwdavid\Big-Master\index.php(13): CWebApplication->run()
+REQUEST_URI=/user/
+in F:\www\fmwdavid\Big-Master\protected\components\WebUser.php (11)
+in F:\www\fmwdavid\Big-Master\index.php (13)
+2014/03/19 14:41:01 [error] [exception.CException] exception 'CException' with message 'Property "WebUser.defaultController" is not defined.' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\auth\CWebUser.php(146): CComponent->__get('defaultControll...')
+#1 F:\www\fmwdavid\Big-Master\protected\components\WebUser.php(21): CWebUser->__get('defaultControll...')
+#2 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(315): WebUser->__get('defaultControll...')
+#3 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(338): CWebApplication->createController('', Object(WebUser))
+#4 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(276): CWebApplication->createController('user')
+#5 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#6 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/user/
+---
+2014/03/19 14:43:02 [error] [exception.CException] exception 'CException' with message 'Property "WebUser.controllerMap" is not defined.' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\auth\CWebUser.php(146): CComponent->__get('controllerMap')
+#1 F:\www\fmwdavid\Big-Master\protected\components\WebUser.php(21): CWebUser->__get('controllerMap')
+#2 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(329): WebUser->__get('controllerMap')
+#3 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(338): CWebApplication->createController('login/', Object(WebUser))
+#4 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(276): CWebApplication->createController('user/login')
+#5 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('user/login')
+#6 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/user/login
+---
+2014/03/19 14:46:31 [error] [exception.CException] exception 'CException' with message 'Property "WebUser.defaultController" is not defined.' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\auth\CWebUser.php(146): CComponent->__get('defaultControll...')
+#1 F:\www\fmwdavid\Big-Master\protected\components\WebUser.php(21): CWebUser->__get('defaultControll...')
+#2 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(315): WebUser->__get('defaultControll...')
+#3 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(338): CWebApplication->createController('', Object(WebUser))
+#4 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(276): CWebApplication->createController('user')
+#5 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('user')
+#6 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#7 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#8 {main}
+REQUEST_URI=/user
+---
+2014/03/19 14:46:54 [error] [php] Declaration of WebUser::login() should be compatible with CWebUser::login($identity, $duration = 0) (F:\www\fmwdavid\Big-Master\protected\components\WebUser.php:11)
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\YiiBase.php(196): import()
+#1 F:\www\fmwdavid\Big-Master\framework\base\CModule.php(282): createComponent()
+#2 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(337): CWebApplication->getModule()
+#3 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(276): CWebApplication->createController()
+#4 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#5 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 F:\www\fmwdavid\Big-Master\index.php(13): CWebApplication->run()
+REQUEST_URI=/user
+in F:\www\fmwdavid\Big-Master\protected\components\WebUser.php (11)
+in F:\www\fmwdavid\Big-Master\index.php (13)
+2014/03/19 15:27:18 [error] [php] Declaration of AdminWebUser::login() should be compatible with CWebUser::login($identity, $duration = 0) (F:\www\fmwdavid\Big-Master\protected\modules\admin\components\AdminWebUser.php:11)
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\YiiBase.php(196): import()
+#1 F:\www\fmwdavid\Big-Master\framework\base\CModule.php(386): createComponent()
+#2 F:\www\fmwdavid\Big-Master\framework\base\CModule.php(103): CWebApplication->getComponent()
+#3 F:\www\fmwdavid\Big-Master\protected\modules\admin\AdminModule.php(45): CWebApplication->__get()
+#4 F:\www\fmwdavid\Big-Master\framework\web\CController.php(263): AdminModule->beforeControllerAction()
+#5 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): EmployeesController->run()
+#6 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 F:\www\fmwdavid\Big-Master\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/employees/admin
+in F:\www\fmwdavid\Big-Master\protected\modules\admin\components\AdminWebUser.php (11)
+in F:\www\fmwdavid\Big-Master\protected\modules\admin\AdminModule.php (45)
+in F:\www\fmwdavid\Big-Master\index.php (13)
+2014/03/19 15:27:55 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in F:\www\fmwdavid\Big-Master\framework\web\CController.php:483
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CController.php(270): CController->missingAction('login')
+#1 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('login')
+#2 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/default/l...')
+#3 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/default/login
+---
+2014/03/19 15:31:17 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in F:\www\fmwdavid\Big-Master\framework\web\CController.php:483
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CController.php(270): CController->missingAction('login')
+#1 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('login')
+#2 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/default/l...')
+#3 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/default/login
+---
+2014/03/19 15:36:40 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "login".' in F:\www\fmwdavid\Big-Master\framework\web\CController.php:483
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CController.php(270): CController->missingAction('login')
+#1 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('login')
+#2 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/default/l...')
+#3 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#4 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/admin/default/login
+---
+2014/03/19 15:37:35 [error] [php] Declaration of WebUser::login() should be compatible with CWebUser::login($identity, $duration = 0) (F:\www\fmwdavid\Big-Master\protected\components\WebUser.php:11)
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\YiiBase.php(196): import()
+#1 F:\www\fmwdavid\Big-Master\framework\base\CModule.php(386): createComponent()
+#2 F:\www\fmwdavid\Big-Master\framework\base\CModule.php(103): CWebApplication->getComponent()
+#3 F:\www\fmwdavid\Big-Master\protected\views\layouts\main.php(35): CWebApplication->__get()
+#4 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(126): require()
+#5 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#6 F:\www\fmwdavid\Big-Master\framework\web\widgets\CContentDecorator.php(76): SiteController->renderFile()
+#7 F:\www\fmwdavid\Big-Master\framework\web\widgets\CContentDecorator.php(54): CContentDecorator->decorate()
+#8 F:\www\fmwdavid\Big-Master\framework\web\widgets\COutputProcessor.php(44): CContentDecorator->processOutput()
+#9 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(206): CContentDecorator->run()
+#10 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(300): SiteController->endWidget()
+#11 F:\www\fmwdavid\Big-Master\protected\views\layouts\column1.php(6): SiteController->endContent()
+#12 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(126): require()
+#13 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(95): SiteController->renderInternal()
+#14 F:\www\fmwdavid\Big-Master\framework\web\CController.php(784): SiteController->renderFile()
+#15 F:\www\fmwdavid\Big-Master\protected\controllers\SiteController.php(32): SiteController->render()
+#16 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): SiteController->actionIndex()
+#17 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams()
+#18 F:\www\fmwdavid\Big-Master\framework\web\CController.php(286): SiteController->runAction()
+#19 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): SiteController->runActionWithFilters()
+#20 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): SiteController->run()
+#21 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#22 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#23 F:\www\fmwdavid\Big-Master\index.php(13): CWebApplication->run()
+REQUEST_URI=/
+in F:\www\fmwdavid\Big-Master\protected\components\WebUser.php (11)
+in F:\www\fmwdavid\Big-Master\protected\views\layouts\main.php (35)
+in F:\www\fmwdavid\Big-Master\protected\views\layouts\column1.php (6)
+2014/03/19 15:39:44 [error] [exception.CException] exception 'CException' with message 'DefaultController cannot find the requested view "login".' in F:\www\fmwdavid\Big-Master\framework\web\CController.php:878
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#1 F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\DefaultController.php(46): CController->render('login', Array)
+#2 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): DefaultController->actionLogin()
+#3 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#4 F:\www\fmwdavid\Big-Master\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#5 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#6 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('login')
+#7 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/default/l...')
+#8 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#9 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#10 {main}
+REQUEST_URI=/admin/default/login
+---
+2014/03/19 15:48:09 [error] [exception.CException] exception 'CException' with message 'UserIdentity and its behaviors do not have a method or closure named "getUser".' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:266
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\protected\components\WebUser.php(25): CComponent->__call('getUser', Array)
+#1 F:\www\fmwdavid\Big-Master\protected\components\WebUser.php(25): UserIdentity->getUser()
+#2 F:\www\fmwdavid\Big-Master\protected\modules\admin\models\LoginForm.php(71): WebUser->login(Object(UserIdentity), 0)
+#3 F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\DefaultController.php(42): LoginForm->login()
+#4 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): DefaultController->actionLogin()
+#5 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('login')
+#9 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/default/l...')
+#10 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/admin/default/login
+HTTP_REFERER=http://big-master/admin/default/login
+---
+2014/03/19 15:49:20 [error] [exception.CException] exception 'CException' with message 'UserIdentity and its behaviors do not have a method or closure named "getUser".' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:266
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\protected\components\WebUser.php(25): CComponent->__call('getUser', Array)
+#1 F:\www\fmwdavid\Big-Master\protected\components\WebUser.php(25): UserIdentity->getUser()
+#2 F:\www\fmwdavid\Big-Master\protected\models\LoginForm.php(71): WebUser->login(Object(UserIdentity), 0)
+#3 F:\www\fmwdavid\Big-Master\protected\controllers\SiteController.php(94): LoginForm->login()
+#4 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#5 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('login')
+#9 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#10 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/login
+HTTP_REFERER=http://big-master/site/login
+---
+2014/03/19 16:31:41 [error] [exception.CException] exception 'CException' with message 'UserIdentity and its behaviors do not have a method or closure named "getUser".' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:266
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\protected\modules\admin\components\AdminWebUser.php(25): CComponent->__call('getUser', Array)
+#1 F:\www\fmwdavid\Big-Master\protected\modules\admin\components\AdminWebUser.php(25): UserIdentity->getUser()
+#2 F:\www\fmwdavid\Big-Master\protected\modules\admin\models\LoginForm.php(71): AdminWebUser->login(Object(UserIdentity), 0)
+#3 F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\DefaultController.php(42): LoginForm->login()
+#4 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): DefaultController->actionLogin()
+#5 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('login')
+#9 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/default/l...')
+#10 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/admin/default/login
+HTTP_REFERER=http://big-master/admin/default/login
+---
+2014/03/19 17:13:08 [error] [exception.CException] exception 'CException' with message 'Property "DefaultController.admin" is not defined.' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\DefaultController.php(43): CComponent->__get('admin')
+#1 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): DefaultController->actionLogin()
+#2 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 F:\www\fmwdavid\Big-Master\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('login')
+#6 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/default/l...')
+#7 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/default/login
+HTTP_REFERER=http://big-master/admin/default/login
+---
+2014/03/19 17:13:37 [error] [exception.CException] exception 'CException' with message 'Property "DefaultController.user" is not defined.' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\DefaultController.php(43): CComponent->__get('user')
+#1 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): DefaultController->actionLogin()
+#2 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 F:\www\fmwdavid\Big-Master\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('login')
+#6 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/default/l...')
+#7 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/default/login
+HTTP_REFERER=http://big-master/admin/default/login
+---
+2014/03/19 17:33:37 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.admin" is not defined.' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\base\CModule.php(105): CComponent->__get('admin')
+#1 F:\www\fmwdavid\Big-Master\protected\modules\admin\AdminModule.php(45): CModule->__get('admin')
+#2 F:\www\fmwdavid\Big-Master\framework\web\CController.php(263): AdminModule->beforeControllerAction(Object(DefaultController), Object(CInlineAction))
+#3 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('')
+#4 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#5 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#6 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#7 {main}
+REQUEST_URI=/admin/
+---
+2014/03/19 17:37:29 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.admin" is not defined.' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\base\CModule.php(105): CComponent->__get('admin')
+#1 F:\www\fmwdavid\Big-Master\protected\modules\admin\views\layouts\main.php(36): CModule->__get('admin')
+#2 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(126): require('F:\www\fmwdavid...')
+#3 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\www\fmwdavid...', Array, true)
+#4 F:\www\fmwdavid\Big-Master\framework\web\CController.php(784): CBaseController->renderFile('F:\www\fmwdavid...', Array, true)
+#5 F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\DefaultController.php(8): CController->render('index')
+#6 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\www\fmwdavid\Big-Master\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('')
+#11 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#12 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/admin/
+---
+2014/03/19 17:37:56 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in F:\www\fmwdavid\Big-Master\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 F:\www\fmwdavid\Big-Master\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 F:\www\fmwdavid\Big-Master\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 F:\www\fmwdavid\Big-Master\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#9 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/employees/admin
+---
+2014/03/19 17:44:22 [error] [exception.CHttpException.403] exception 'CHttpException' with message 'You are not authorized to perform this action.' in F:\www\fmwdavid\Big-Master\framework\web\auth\CAccessControlFilter.php:182
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\auth\CAccessControlFilter.php(145): CAccessControlFilter->accessDenied(Object(CWebUser), 'You are not aut...')
+#1 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilter.php(38): CAccessControlFilter->preFilter(Object(CFilterChain))
+#2 F:\www\fmwdavid\Big-Master\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#3 F:\www\fmwdavid\Big-Master\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#4 F:\www\fmwdavid\Big-Master\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#5 F:\www\fmwdavid\Big-Master\framework\web\CController.php(291): CFilterChain->run()
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#7 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('admin')
+#8 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/employees...')
+#9 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#10 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#11 {main}
+REQUEST_URI=/admin/employees/admin
+---
+2014/03/19 17:46:02 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.admin" is not defined.' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\base\CModule.php(105): CComponent->__get('admin')
+#1 F:\www\fmwdavid\Big-Master\protected\modules\admin\views\layouts\main.php(36): CModule->__get('admin')
+#2 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(126): require('F:\www\fmwdavid...')
+#3 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\www\fmwdavid...', Array, true)
+#4 F:\www\fmwdavid\Big-Master\framework\web\CController.php(784): CBaseController->renderFile('F:\www\fmwdavid...', Array, true)
+#5 F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\DefaultController.php(8): CController->render('index')
+#6 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\www\fmwdavid\Big-Master\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('')
+#11 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#12 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/admin/
+---
+2014/03/19 17:47:08 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.admin" is not defined.' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\base\CModule.php(105): CComponent->__get('admin')
+#1 F:\www\fmwdavid\Big-Master\protected\modules\admin\views\layouts\main.php(36): CModule->__get('admin')
+#2 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(126): require('F:\www\fmwdavid...')
+#3 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\www\fmwdavid...', Array, true)
+#4 F:\www\fmwdavid\Big-Master\framework\web\CController.php(784): CBaseController->renderFile('F:\www\fmwdavid...', Array, true)
+#5 F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\DefaultController.php(8): CController->render('index')
+#6 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\www\fmwdavid\Big-Master\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('')
+#11 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#12 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/admin/
+---
+2014/03/19 17:48:01 [error] [exception.CException] exception 'CException' with message 'Property "CWebApplication.admin" is not defined.' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\base\CModule.php(105): CComponent->__get('admin')
+#1 F:\www\fmwdavid\Big-Master\protected\modules\admin\views\layouts\main.php(36): CModule->__get('admin')
+#2 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(126): require('F:\www\fmwdavid...')
+#3 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\www\fmwdavid...', Array, true)
+#4 F:\www\fmwdavid\Big-Master\framework\web\CController.php(784): CBaseController->renderFile('F:\www\fmwdavid...', Array, true)
+#5 F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\DefaultController.php(8): CController->render('index')
+#6 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): DefaultController->actionIndex()
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 F:\www\fmwdavid\Big-Master\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#9 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#10 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('')
+#11 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin')
+#12 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#13 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#14 {main}
+REQUEST_URI=/admin/
+---
+2014/03/19 20:26:45 [error] [exception.CException] exception 'CException' with message 'Property "DefaultController.admin" is not defined.' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\DefaultController.php(28): CComponent->__get('admin')
+#1 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): DefaultController->actionLogin()
+#2 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#3 F:\www\fmwdavid\Big-Master\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#4 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#5 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('login')
+#6 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/default/l...')
+#7 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#9 {main}
+REQUEST_URI=/admin/default/login
+---
+2014/03/19 20:43:51 [error] [exception.CException] exception 'CException' with message 'UserIdentity and its behaviors do not have a method or closure named "getUser".' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:266
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\protected\components\WebUser.php(25): CComponent->__call('getUser', Array)
+#1 F:\www\fmwdavid\Big-Master\protected\components\WebUser.php(25): UserIdentity->getUser()
+#2 F:\www\fmwdavid\Big-Master\protected\models\LoginForm.php(71): WebUser->login(Object(UserIdentity), 0)
+#3 F:\www\fmwdavid\Big-Master\protected\controllers\SiteController.php(95): LoginForm->login()
+#4 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#5 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#8 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('login')
+#9 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#10 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#11 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#12 {main}
+REQUEST_URI=/site/login
+HTTP_REFERER=http://big-master/site/login
+---
+2014/03/19 20:51:32 [error] [exception.CException] exception 'CException' with message 'Property "UserIdentity._id" is not defined.' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\protected\components\UserIdentity.php(40): CComponent->__get('_id')
+#1 F:\www\fmwdavid\Big-Master\framework\web\auth\CWebUser.php(229): UserIdentity->getId()
+#2 F:\www\fmwdavid\Big-Master\protected\components\WebUser.php(26): CWebUser->login(Object(UserIdentity), 0)
+#3 F:\www\fmwdavid\Big-Master\protected\models\LoginForm.php(71): WebUser->login(Object(UserIdentity), 0)
+#4 F:\www\fmwdavid\Big-Master\protected\controllers\SiteController.php(95): LoginForm->login()
+#5 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): SiteController->actionLogin()
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#7 F:\www\fmwdavid\Big-Master\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#8 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#9 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('login')
+#10 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('site/login')
+#11 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#12 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#13 {main}
+REQUEST_URI=/site/login
+HTTP_REFERER=http://big-master/site/login
+---
+2014/03/19 22:01:02 [error] [php] include(AdminUsers.php): failed to open stream: No such file or directory (F:\www\fmwdavid\Big-Master\framework\YiiBase.php:427)
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\YiiBase.php(196): import()
+#1 F:\www\fmwdavid\Big-Master\framework\base\CModule.php(386): createComponent()
+#2 F:\www\fmwdavid\Big-Master\framework\base\CModule.php(103): CWebApplication->getComponent()
+#3 F:\www\fmwdavid\Big-Master\protected\modules\admin\AdminModule.php(45): CWebApplication->__get()
+#4 F:\www\fmwdavid\Big-Master\framework\web\CController.php(263): AdminModule->beforeControllerAction()
+#5 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): DefaultController->run()
+#6 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController()
+#7 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#8 F:\www\fmwdavid\Big-Master\index.php(13): CWebApplication->run()
+REQUEST_URI=/admin/default/login
+in F:\www\fmwdavid\Big-Master\protected\modules\admin\AdminModule.php (45)
+in F:\www\fmwdavid\Big-Master\index.php (13)

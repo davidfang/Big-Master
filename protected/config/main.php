@@ -19,7 +19,8 @@ return array(
 	),
 
 	'modules'=>array(
-		'admin',
+
+        'admin',
 		// uncomment the following to enable the Gii tool
 		/*  */
 		'gii'=>array(
@@ -35,19 +36,29 @@ return array(
 	'components'=>array(
 		'user'=>array(
 			// enable cookie-based authentication
-			'allowAutoLogin'=>true,
+			//'allowAutoLogin'=>true,
+            'class'=>'WebUser',//这个WebUser是继承CwebUser，稍后给出它的代码
+            'stateKeyPrefix'=>'member',//这个是设置前台session的前缀
+            'allowAutoLogin'=>true,//这里设置允许cookie保存登录信息，一边下次自动登录
 		),
+        'admin'=>array(
+            // enable cookie-based authentication
+            'class'=>'AdminWebUser',
+            'stateKeyPrefix'=>'admin',//设置后台session前缀
+            'allowAutoLogin'=>false,
+            'loginUrl' =>array('/admin/adminuser/login'),
+        ),
 		// uncomment the following to enable URLs in path-format
 		/**/
 		'urlManager'=>array(
 			'urlFormat'=>'path',
 			'showScriptName'=>false,
-			'rules'=>array(
+			/*'rules'=>array(
 				'gii/<controller:\w+>/<action:\w+>'=>'gii/<controller>/<action>',
 				'<controller:\w+>/<id:\d+>'=>'<controller>/view',
 				'<controller:\w+>/<action:\w+>/<id:\d+>'=>'<controller>/<action>',
 				'<controller:\w+>/<action:\w+>'=>'<controller>/<action>',
-			),
+			),*/
 		),
 		/*
 		'db'=>array(
@@ -62,7 +73,13 @@ return array(
 			'password' => '123456',
 			'charset' => 'utf8',
 		),
-		
+		'authManager'=>array(
+            'class'=>'CDbAuthManager',//认证类名称
+            'defaultRoles'=>array('guest'),//默认角色
+            'itemTable' => 'AuthItem',//认证项表名称
+            'itemChildTable' => 'AuthItemChild',//认证项父子关系
+            'assignmentTable' => 'AuthItem',//认证项赋权关系
+        ),
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
 			'errorAction'=>'site/error',
