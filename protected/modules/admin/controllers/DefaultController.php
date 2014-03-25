@@ -2,10 +2,20 @@
 
 class DefaultController extends AdminController
 {
-    public $layout='/layouts/main';
+    //public $layout='/layouts/main';
 	public function actionIndex()
 	{
-		$this->render('index');
+        /*foreach(Yii::app()->session as $name=>$value){
+            echo $name .'==---会话session---=='.(is_array($value)?var_dump($value):$value).'<br>';
+        }
+        echo '<pre>';
+        var_dump(Yii::app()->session);
+        var_dump(Yii::app()->admin);
+        echo '--------------------------------------';
+        //var_dump(Yii::app()->user);
+        echo '</pre>';*/
+		//echo 'admin ^-^';
+        $this->render('index');
 	}
     /**
      * This is the action to handle external exceptions.
@@ -24,15 +34,7 @@ class DefaultController extends AdminController
      * Displays the login page
      */
     public function actionLogin()
-    {   foreach(Yii::app()->session as $name=>$value){
-         echo $name .'------'.(is_array($value)?var_dump($value):$value).'<br>';
-        }
-        echo '<pre>';
-        var_dump(Yii::app()->session);
-        var_dump(Yii::app()->admin);
-        echo '--------------------------------------';
-        var_dump(Yii::app()->user);
-        echo '</pre>';
+    {
         $model=new LoginForm;
 
         // if it is ajax validation request
@@ -48,10 +50,6 @@ class DefaultController extends AdminController
             $model->attributes=$_POST['LoginForm'];
             // validate user input and redirect to the previous page if valid
             if($model->validate() && $model->login()){
-                //var_dump(Yii::app()->admin);
-                //echo '<pre>';
-                //var_dump($model);
-                //echo 'aaaaa';exit;
                 $this->redirect(Yii::app()->admin->returnUrl);
             }
         }
@@ -64,7 +62,7 @@ class DefaultController extends AdminController
      */
     public function actionLogout()
     {
-        Yii::app()->admin->logout();
-        $this->redirect(Yii::app()->homeUrl);
+        Yii::app()->admin->logout(false);
+        $this->redirect(Yii::app()->admin->loginUrl);
     }
 }

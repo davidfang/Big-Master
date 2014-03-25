@@ -27,7 +27,7 @@ class SiteController extends Controller
 	 */
 	public function actionIndex()
 	{
-        var_dump($_SESSION);
+
 		// renders the view file 'protected/views/site/index.php'
 		// using the default layout 'protected/views/layouts/main.php'
 		$this->render('index');
@@ -104,7 +104,7 @@ class SiteController extends Controller
 	 */
 	public function actionLogout()
 	{
-		Yii::app()->user->logout();
+		Yii::app()->user->logout(false);
 		$this->redirect(Yii::app()->homeUrl);
 	}
 }

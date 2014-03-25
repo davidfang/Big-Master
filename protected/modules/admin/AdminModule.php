@@ -19,11 +19,11 @@ class AdminModule extends CWebModule
                 'class'=>'CErrorHandler',
                 'errorAction'=>'admin/default/error',
             ),
-            'admin'=>array(
+            /*'admin'=>array(
                 'class'=>'AdminWebUser',//后台登录类实例
                 'stateKeyPrefix'=>'admin',//后台session前缀
                 'loginUrl'=>Yii::app()->createUrl('admin/default/login'),
-            ),
+            ),*/
         ), false);
         //下面这两行我一直没搞定啥意思，貌似CWebModule里也没generatorPaths属性和findGenerators()方法
         //$this->generatorPaths[]='admin.generators';

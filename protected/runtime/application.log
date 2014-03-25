@@ -834,3 +834,361 @@ Stack trace:
 REQUEST_URI=/admin/default/login
 in F:\www\fmwdavid\Big-Master\protected\modules\admin\AdminModule.php (45)
 in F:\www\fmwdavid\Big-Master\index.php (13)
+2014/03/25 11:01:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/25 11:01:37 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "favicon.ico".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('favicon.ico')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/favicon.ico
+---
+2014/03/25 14:27:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:24 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:25 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:45 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:27:46 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "admin/adminuser/login".' in F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php:286
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/adminuser...')
+#1 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#2 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/admin/adminuser/login
+---
+2014/03/25 14:42:22 [error] [exception.CException] exception 'CException' with message 'Property "AdminWebUser.pageTitle" is not defined.' in F:\www\fmwdavid\Big-Master\framework\base\CComponent.php:130
+Stack trace:
+#0 F:\www\fmwdavid\Big-Master\framework\web\auth\CWebUser.php(146): CComponent->__get('pageTitle')
+#1 F:\www\fmwdavid\Big-Master\protected\modules\admin\components\AdminWebUser.php(21): CWebUser->__get('pageTitle')
+#2 F:\www\fmwdavid\Big-Master\protected\modules\admin\views\default\login.php(7): AdminWebUser->__get('pageTitle')
+#3 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(126): require('F:\www\fmwdavid...')
+#4 F:\www\fmwdavid\Big-Master\framework\web\CBaseController.php(95): CBaseController->renderInternal('F:\www\fmwdavid...', Array, true)
+#5 F:\www\fmwdavid\Big-Master\framework\web\CController.php(869): CBaseController->renderFile('F:\www\fmwdavid...', Array, true)
+#6 F:\www\fmwdavid\Big-Master\framework\web\CController.php(782): CController->renderPartial('login', Array, true)
+#7 F:\www\fmwdavid\Big-Master\protected\modules\admin\controllers\DefaultController.php(57): CController->render('login', Array)
+#8 F:\www\fmwdavid\Big-Master\framework\web\actions\CInlineAction.php(49): DefaultController->actionLogin()
+#9 F:\www\fmwdavid\Big-Master\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 F:\www\fmwdavid\Big-Master\framework\web\CController.php(286): CController->runAction(Object(CInlineAction))
+#11 F:\www\fmwdavid\Big-Master\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#12 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(282): CController->run('login')
+#13 F:\www\fmwdavid\Big-Master\framework\web\CWebApplication.php(141): CWebApplication->runController('admin/default/l...')
+#14 F:\www\fmwdavid\Big-Master\framework\base\CApplication.php(180): CWebApplication->processRequest()
+#15 F:\www\fmwdavid\Big-Master\index.php(13): CApplication->run()
+#16 {main}
+REQUEST_URI=/admin/default/login
+HTTP_REFERER=http://big-master/admin/
+---

@@ -46,7 +46,7 @@ return array(
             'class'=>'AdminWebUser',
             'stateKeyPrefix'=>'admin',//设置后台session前缀
             'allowAutoLogin'=>false,
-            'loginUrl' =>array('/admin/adminuser/login'),
+            'loginUrl' =>array('/admin/default/login'),
         ),
 		// uncomment the following to enable URLs in path-format
 		/**/
@@ -89,14 +89,14 @@ return array(
 			'routes'=>array(
 				array(
 					'class'=>'CFileLogRoute',
-					'levels'=>'error, warning',
+					'levels'=>'error, warning,notice',
 				),
 				// uncomment the following to show log messages on web pages
-				/*
+                /*
 				array(
 					'class'=>'CWebLogRoute',
-				),
-				*/
+				),*/
+
 			),
 		),
 	),

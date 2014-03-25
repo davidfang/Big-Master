@@ -3,7 +3,8 @@
 /* @var $model LoginForm */
 /* @var $form CActiveForm  */
 
-$this->pageTitle=Yii::app()->name . ' - Login';
+//$this->pageTitle=Yii::app()->name . ' - Login';
+$this->pageTitle=$this->pageTitle . ' - Login';
 $this->breadcrumbs=array(
 	'Login',
 );
