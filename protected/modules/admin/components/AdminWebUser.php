@@ -9,7 +9,6 @@
 
 class AdminWebUser extends CWebUser
 {
-
     public function __get($name)
     {
         if ($this->hasState('__adminInfo')) {
